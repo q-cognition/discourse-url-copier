@@ -15,11 +15,5 @@ after_initialize do
 end
 
 # Register site settings
-register_site_setting_type :category_list, Array
 
 # Site settings configuration
-add_admin_route 'discourse_url_copier.admin_title', 'discourse-url-copier'
-
-Discourse::Application.routes.append do
-  get '/admin/plugins/discourse-url-copier' => 'admin/plugins#index', constraints: StaffConstraint.new
-end

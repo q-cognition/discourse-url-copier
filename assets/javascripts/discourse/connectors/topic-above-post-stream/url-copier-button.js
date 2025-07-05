@@ -20,10 +20,10 @@ export default {
     }
 
     // Check if current topic's category is in the configured categories
-    const currentCategoryName = attrs.model.category.name;
-    const categoryNames = configuredCategories.split('|').map(name => name.trim());
+    const currentCategoryId = attrs.model.category.id;
+    const categoryIds = configuredCategories.split('|').map(name => name.trim());
     
-    return categoryNames.includes(currentCategoryName);
+    return categoryIds.includes(currentCategoryId);
   },
 
   setupComponent(attrs, component) {

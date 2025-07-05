@@ -16,8 +16,7 @@ plugins:
   discourse_url_copier_categories:
     default: ""
     client: true
-    type: list
-    list_type: category
+    type: category_list
     description: "Categories where the URL copier button should appear"
     
   discourse_url_copier_button_text:
