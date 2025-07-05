@@ -1,4 +1,4 @@
-plugins:
+discourse_url_copier:
   discourse_url_copier_enabled:
     default: true
     client: true
