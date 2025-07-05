@@ -5,4 +5,3 @@
 # url: https://mydomain.com
 
 enabled_site_setting :url_copier_enabled
-register_asset "javascripts/discourse/init.js"
