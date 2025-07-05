@@ -2,10 +2,10 @@ url_copier_enabled:
   default: true
   client: true
 url_copier_domain:
-  default: "mydomain.com"
+  default: "replace_with_this_domain.com"
   client: true
 url_copier_append:
-  default: "?addme=nice"
+  default: "?param_key1=param_value1"
   client: true
 url_copier_categories:
   type: list
