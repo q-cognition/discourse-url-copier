@@ -1,0 +1,15 @@
+plugins:
+  url_copier_enabled:
+    default: true
+    client: true
+  url_copier_domain:
+    default: "mydomain.com"
+    client: true
+  url_copier_append:
+    default: "?addme=nice"
+    client: true
+  url_copier_categories:
+    type: list
+    list_type: compact
+    default: "support|feature-requests|secret-stuff"
+    client: true
