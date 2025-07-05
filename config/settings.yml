@@ -1,16 +1,13 @@
 plugins:
-  url_copier_enabled:
-    default: true
-    client: true
-  url_copier_categories:
-    default: "support,announcements"
-    client: true
-    description: "Comma-separated list of category slugs to show the button"
   url_copier_replace_hostname:
     default: "replace-with-this-domain.com"
     client: true
-    description: "New hostname for the copied URL"
+    description: "Hostname to replace with"
   url_copier_append_string:
     default: "?extra=param"
     client: true
-    description: "String to append to the copied URL"
+    description: "String to append to the URL"
+  url_copier_categories:
+    default: "support,announcements"
+    client: true
+    description: "Comma-separated list of category slugs"
