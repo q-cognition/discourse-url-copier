@@ -1,0 +1,60 @@
+.url-copier-wrapper {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: var(--primary-very-low);
+  border: 1px solid var(--primary-low);
+  
+  .url-copier-button-container {
+    display: flex;
+    justify-content: flex-end;
+    
+    .url-copier-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        background-color: var(--primary-high);
+        transform: translateY(-1px);
+      }
+      
+      &:active {
+        transform: translateY(0);
+      }
+      
+      .d-icon {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// Dark theme support
+.dark-mode {
+  .url-copier-wrapper {
+    background-color: var(--primary-very-low);
+    border-color: var(--primary-low);
+  }
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+  .url-copier-wrapper {
+    margin: 8px 0;
+    padding: 8px;
+    
+    .url-copier-button-container {
+      justify-content: center;
+      
+      .url-copier-btn {
+        font-size: 13px;
+        padding: 6px 12px;
+      }
+    }
+  }
+}

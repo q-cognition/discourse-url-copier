@@ -1,0 +1,31 @@
+plugins:
+  discourse_url_copier_enabled:
+    default: true
+    client: true
+    
+  discourse_url_copier_target_domain:
+    default: "replace-with-this-domain.com"
+    client: true
+    description: "The domain to replace in the URL"
+    
+  discourse_url_copier_append_params:
+    default: "?extra=param"
+    client: true
+    description: "Parameters to append to the URL"
+    
+  discourse_url_copier_categories:
+    default: ""
+    client: true
+    type: list
+    list_type: category
+    description: "Categories where the URL copier button should appear"
+    
+  discourse_url_copier_button_text:
+    default: "Copy AI Link"
+    client: true
+    description: "Text to display on the button"
+    
+  discourse_url_copier_toast_message:
+    default: "Copied to clipboard"
+    client: true
+    description: "Message to show in toast notification"
